@@ -26,6 +26,8 @@ class FizzBuzzTest {
     @Test
     void FizBuzzTest (){
         FizzBuzz fb = new FizzBuzz();
+        // Test Failed puisque la condition qui retourn "Fizz" est valider avant la condition de "FizzBuzz"
+        // Actual = "Fizz"
         assertEquals("FizzBuzz", fb.de(15));
     }
 
